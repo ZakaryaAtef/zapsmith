@@ -1,0 +1,17 @@
+#EXTM3U
+#EXTINF:-1 tvg-chno="1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Big_buck_bunny_poster_big.jpg/500px-Big_buck_bunny_poster_big.jpg" group-title="Demo channels",Big Buck Bunny (HLS)
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+#EXTINF:-1 tvg-chno="2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Tos-poster.png/500px-Tos-poster.png" group-title="Demo channels",Tears of Steel (HLS)
+https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
+#EXTINF:-1 tvg-chno="3" group-title="Demo channels",Unified Streaming Live
+https://demo.unified-streaming.com/k8s/live/stable/live.isml/.m3u8
+#EXTINF:-1 tvg-chno="4" group-title="Demo channels",Apple Bip-Bop
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Big_buck_bunny_poster_big.jpg/500px-Big_buck_bunny_poster_big.jpg" group-title="Blender Open Movies",Big Buck Bunny (2008)
+https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c0/Big_Buck_Bunny_4K.webm/Big_Buck_Bunny_4K.webm.720p.vp9.webm
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/ElephantsDreamPoster.jpg/500px-ElephantsDreamPoster.jpg" group-title="Blender Open Movies",Elephants Dream (2006)
+https://download.blender.org/ED/elephantsdream-720-h264-st-aac.mov
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Sintel_poster.jpg/500px-Sintel_poster.jpg" group-title="Blender Open Movies",Sintel (2010)
+https://download.blender.org/durian/movies/Sintel.2010.1080p.mkv
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Tos-poster.png/500px-Tos-poster.png" group-title="Blender Open Movies",Tears of Steel (2012)
+https://download.blender.org/demo/movies/ToS/tears_of_steel_720p.mov

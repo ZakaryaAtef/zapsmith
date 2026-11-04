@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ZapSmith</title>
+  <style>
+    :root { --bg: #ffffff; --fg: #1d1f24; --muted: #5b6070; --line: #e3e5ea; --accent: #6b4cf5; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #111318; --fg: #e9eaee; --muted: #a2a7b5; --line: #2a2d36; --accent: #a996ff; }
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+    main { max-width: 760px; margin: 0 auto; padding: 40px 16px 64px; }
+    h1 { font-size: 30px; margin: 0 0 8px; }
+    h2 { font-size: 19px; margin: 32px 0 8px; }
+    a { color: var(--accent); }
+    code { font-size: 14px; word-break: break-all; }
+    .muted { color: var(--muted); }
+  </style>
+</head>
+<body>
+<main>
+  <h1>ZapSmith</h1>
+  <p>ZapSmith plays the IPTV playlists you add yourself (Xtream Codes accounts or M3U links) on LG and Samsung TVs, Windows PCs, phones and tablets. It does not sell, host or provide any channels, films or series.</p>
+  <p><a href="privacy.html">Privacy policy</a> · Support: <a href="mailto:zakarya.atef2017@gmail.com">zakarya.atef2017@gmail.com</a></p>
+
+  <h2>Demo playlist</h2>
+  <p>To try ZapSmith without a provider, add this M3U link in Settings → Add a playlist:</p>
+  <p><code>https://zakaryaatef.github.io/zapsmith/demo.m3u</code></p>
+  <p class="muted">It holds public test streams and the Blender Foundation's open movies only.</p>
+
+  <h2>Demo content credits</h2>
+  <ul>
+    <li>Big Buck Bunny, Elephants Dream, Sintel and Tears of Steel: © Blender Foundation, <a href="https://www.blender.org">blender.org</a>, licensed under Creative Commons Attribution (CC BY 3.0 / 4.0). Posters from <a href="https://commons.wikimedia.org">Wikimedia Commons</a>.</li>
+    <li>Test streams: Mux, Unified Streaming and Apple public HLS test streams.</li>
+  </ul>
+</main>
+</body>
+</html>
